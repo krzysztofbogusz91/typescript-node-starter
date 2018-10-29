@@ -8,6 +8,7 @@
     "watch-ts": "tsc -w",
     "start": "node dist/server.js",
     "watch-build": "nodemon dist/server.js",
+    "prod": "npm run build && npm run start",
     "dev": "nodemon ./src/server.ts",
     "test": "jest --forceExit --verbose",
     "test-watch": "npm run test --watchAll",

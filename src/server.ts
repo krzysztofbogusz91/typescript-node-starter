@@ -2,6 +2,7 @@ import app from './app';
 import { config } from './config/app-config';
 import { connector } from './connectors/mongoose.connector';
 
+console.log(process.env.MONGO);
 connector
   .openConnection(config.db)
   .then(() => {
