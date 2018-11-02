@@ -1,4 +1,4 @@
-# MGR-BACKEND-NODEJS
+# BACKEND-NODEJS
 
 ## Development environment
 
