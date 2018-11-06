@@ -30,3 +30,6 @@ Runs test once and shows test coverage
 ```
 npm run test-coverage
 ```
+
+## TODO
+- Remove chai form project - use jest || Reme jest add other code coverage
